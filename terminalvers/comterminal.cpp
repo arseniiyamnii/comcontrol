@@ -10,7 +10,7 @@ int main(array<System::String ^> ^args)
 	while (true){
 		int input = Convert::ToInt32(Console::ReadLine());
 		if (input == 1)
-		{
+		{//
 			port.Write("1");
 		}
 		else 
